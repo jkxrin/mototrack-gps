@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark motorsport aesthetic base colors -->
+    <color name="racing_black">#0D0F12</color>
+    <color name="carbon_surface">#161A22</color>
+    <color name="carbon_border">#2A3241</color>
+    <color name="neon_cyan">#00E5FF</color>
+    <color name="neon_red">#FF1744</color>
+    <color name="racing_amber">#FFAB00</color>
+    <color name="pure_white">#FFFFFF</color>
+    <color name="text_secondary">#8E9BAE</color>
+
+    <style name="Theme.MotoTrackGPS" parent="android:Theme.Material.NoActionBar">
+        <item name="android:statusBarColor">@color/racing_black</item>
+        <item name="android:navigationBarColor">@color/racing_black</item>
+        <item name="android:windowBackground">@color/racing_black</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

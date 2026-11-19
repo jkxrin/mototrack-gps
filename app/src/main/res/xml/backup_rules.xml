@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  =============================================================================
+  MotoTrack GPS Legacy Auto-Backup Rules Configuration
+  Specifies files and preferences to include or exclude during auto-backup
+  mechanisms on older Android versions (API <= 30).
+  =============================================================================
+-->
+<full-backup-content>
+    <exclude domain="sharedpref" path="." />
+    <exclude domain="database" path="." />
+</full-backup-content>

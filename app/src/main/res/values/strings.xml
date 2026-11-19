@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Application branding and core strings -->
+    <string name="app_name">MotoTrack GPS</string>
+    <string name="app_tagline">Superbike Precision GPS Tachometer and Trip Tracker</string>
+
+    <!-- Foreground Notification Strings -->
+    <string name="location_service_channel_name">Trip Tracking Service</string>
+    <string name="location_service_channel_desc">Active foreground service recording live GPS speed, telemetry, and trip distance.</string>
+    <string name="notification_title_recording">MotoTrack GPS • Recording Trip</string>
+
+    <!-- Home Screen Widget Strings -->
+    <string name="widget_name">MotoTrack Distance</string>
+    <string name="widget_description">Displays the active motorcycle trip distance in kilometers on your home screen.</string>
+
+    <!-- Navigation & Action Labels -->
+    <string name="action_start">Start Trip</string>
+    <string name="action_reset">Reset</string>
+    <string name="action_save">Finish &amp; Save Trip</string>
+    <string name="action_history">Saved Trips</string>
+    <string name="unit_kmh">KM/H</string>
+    <string name="unit_km">KM</string>
+</resources>
